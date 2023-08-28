@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link href="css/style.css" rel="stylesheet" />
+    <meta charset="utf-8">  
+
+
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+     
+      
+    <title> Tetris</title>
+</head>
+
+<body>
+
+    <canvas class="canvas1" width="400" height="800">
+  
+    </canvas>
+         <canvas class="canvas2" width="150" height="140"></canvas>
+    </canvas>
+    <h2 class="gameOver">Game Over</h2>
+    <div class="point" >0 </div>
+
+    <button class="reload"><i class="lni lni-spinner-arrow"></i></button>
+
+
+
+    <script type="module"> 
+    import index from "./js/index.js"
+    
+    index()
+    </script>
+</body>
+
+</html>
